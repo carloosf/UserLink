@@ -6,7 +6,6 @@ const prisma = new PrismaClient()
 
 
 const allUsers = [{ nome: "" }]
-
 const linkRoutes = express.Router()
 
 
