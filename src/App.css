@@ -40,7 +40,6 @@ img {
     border: var(--color-secundary) solid 4px;
 }
 
-
 h2 {
     font-size: 1.5rem;
     font-family: 'Courier New', Courier, monospace;
@@ -61,6 +60,7 @@ ul li a {
     margin-bottom: 1rem;
     border-radius: 6px;
     transition: background 400ms;
+    
 }
 
 footer {
@@ -68,7 +68,6 @@ footer {
     font-size: 12px;
     font-family: 'Courier New', Courier, monospace;
 }
-
 
 @media screen and (min-width: 800px) {
     ul li a:hover{
