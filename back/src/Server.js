@@ -9,4 +9,4 @@ app.get("/health", (req, res) => {
     return res.json("up")
 })
 
-app.listen(3333, () => console.log("Server up in 3333"))
+app.listen(3333, () => console.log("Server Conectado no 3333"))

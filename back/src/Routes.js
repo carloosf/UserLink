@@ -11,16 +11,19 @@ const allUsers = [
         ]
     }
 ]
-const linkRoutes = express.Router()
 
+const linkRoutes = express.Router()
 
 // C
 
 linkRoutes.post("/post", (request, response) => {
+    
     const { username } = request.body
+
     const newUser = {
         username,
     }
+
     allUsers.push(newUser)
     return response.status(201).json(allUsers)
 })
